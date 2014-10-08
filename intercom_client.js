@@ -35,7 +35,7 @@ Meteor.startup(function(){
 
 
         if (!user) // "log out"
-            return;
+            return window.Intercom("shutdown");
 
         info = IntercomSettings.minimumUserInfo(user);
         if (IntercomSettings.userInfo && info.user_hash) {
