@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Basic intercom integration",
-  version: "1.0.0",
+  version: "1.0.1",
   git: "https://github.com/smowden/meteor-intercom"
 });
 
